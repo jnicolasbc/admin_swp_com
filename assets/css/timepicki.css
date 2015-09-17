@@ -1,0 +1,82 @@
+
+/* 
+Created on: 17 Sep, 2014, 4:29:37 PM
+Author: senthil
+*/
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 60px;
+	float: left;
+	margin: 0 10px;
+	font-size: 20px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+.time .prev, .time .next {cursor: pointer !important; padding: 18px !important; width: 28%  !important; border: 1px solid #ccc !important; margin: auto !important; background: url(../img/arrow.png) no-repeat !important; border-radius: 5px !important; }
+.time .prev:hover, .time .next:hover {background-color: #ccc !important; }
+.time .next {background-position: 50% 150% !important; }
+.time .prev {background-position: 50% -50% !important; }
+
+.mins .prev, .mins .next {cursor: pointer !important; padding: 18px !important; width: 28%  !important; border: 1px solid #ccc !important; margin: auto !important; background: url(../img/arrow.png) no-repeat !important; border-radius: 5px !important; }
+.mins .prev:hover, .mins .next:hover {background-color: #ccc !important; }
+.mins .next {background-position: 50% 150% !important; }
+.mins .prev {background-position: 50% -50% !important; }
+
+.meridian .prev, .meridian .next {cursor: pointer !important; padding: 18px !important; width: 28%  !important; border: 1px solid #ccc !important; margin: auto !important; background: url(../img/arrow.png) no-repeat !important; border-radius: 5px !important; }
+.meridian .prev:hover, .meridian .next:hover {background-color: #ccc !important; }
+.meridian .next {background-position: 50% 150% !important; }
+.meridian .prev {background-position: 50% -50% !important; }
+
+.time_pick {
+	position: relative !important;
+}
+
+.timepicker_wrap {
+	padding: 10px !important;
+	border-radius: 5px !important;
+	z-index: 998 !important;
+	display: none;
+	box-shadow: 2px 2px 5px 0 rgba(50,50,50,0.35) !important;
+	background: #f6f6f6 !important;
+	border: 1px solid #ccc !important;
+	float: left !important;
+	position: absolute !important;
+	top: 27px !important;
+	left: 5px !important;
+	width: 182px;
+}
+
+.arrow_top {
+	position: absolute !important;
+	top: -10px !important;
+	left: 20px !important;
+	background: url(../images/top_arr.png) no-repeat !important;
+	width: 18px !important;
+	height: 10px !important;
+	z-index: 999 !important;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #CCCCCC;
+    	border-radius: 5px 5px 5px 5px;
+    	float: none;
+    	margin: 0;
+    	text-align: center;
+    	width: 70%;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}

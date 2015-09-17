@@ -1,0 +1,57 @@
+Dashboard Admin
+
+
+Dashboard Clinica
+	* Admin de Doctors
+		- Alta de Doctores
+		- Edicion de doctores
+		- Desactivar doctores
+		- Eliminacion de Doctores
+	* Admin de Pacientes
+		+ Lista de Pacientes por Doctores
+		+ Lista de Citas por Doctores
+		+ Vista de Cita
+	* Admin de Agendas
+		- Admin de Citas
+			+ Citas Actuales 
+			+ Citas Solicitadas
+			+ Envio de Mensajes a citas(Atraso, o Cancelaciones)
+				# Por Grupos
+				# Individuales
+			+ Envio de Notifaciones
+				# Por Grupos
+				# Individuales
+		- Configuracion de Horarios
+			+ Configuracion de dias especiales	
+	* Admin de Pago de Licencias
+		-Historial de pagos
+		-Realizar Pago.
+	* Configuracion de Cuenta(Cosas Adicionales)
+		- Idioma
+		- Aseguradoras
+
+Dashboard Doctor 
+	* Admin de Pacientes
+		-Listado de Pacientes Por Agendas.
+			+ Lista de Pacientes por Doctores
+			+ Lista de Citas
+			+ Vista de Cita
+	* Admin de Agenda
+		-Admin de Citas
+			+ Citas Actuales
+			+ Citas Solicitadas
+			+ Envio de Mensajes a citas(Atraso, o Cancelaciones)
+				# Por Grupos
+				# Individuales
+			+ Envio de Notifaciones
+				# Por Grupos
+				# Individuales
+		-Configuracion de Horarios
+			+ Configuracion de dias especiales
+			+ Configuracion de Horas->citas
+	* Admin de Pago de Licencias(cuenta unica)
+		- Historial de Pagos
+		- Realizar Pago
+	* Configuracion de Cuenta
+		- Idioma
+		- Aseguradoras (cuenta unica)

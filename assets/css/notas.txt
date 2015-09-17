@@ -1,0 +1,40 @@
+cuando uno agrega pacientes asociados la foto que aparece por defecto 
+
+Usuario Principal Citas futuras(llama las )
+si es 00 la ultima actualizacion
+seria vacio el campo
+
+si es la hora estimada, seria el retraso de la hora actual de la cita.
+
+quitar los segundos de los horarios
+
+agregar validacion a historial de las canceladas
+
+agregar cuando le demos al bnt atras de andorid ir a la citas actuales, y en citas cuales que salga de la app
+
+
+addEventListener("backbutton", function(e){if($.mobile.activePage.is('#pagina-no-salir')){e.preventDefault(); } }, false);
+
+quitar la hora de almuerzo y ver si se puede agregar turno 3
+
+verq ue pasa en config day que no muestra el dia
+
+agregar las aseguradoras por locales
+
+agregar configuaracion de duracion de citas a las agenda.
+
+Pediente
+Cancelado
+En Curso
+Atendido
+
+calendario no mostrar el modal de editar, si no el editar mostar un modal con 4 botones edtiar, en curso, atrasar
+
+No poder mas pedir citas  de mas de 2 años por defecto ser 1 año
+
+tomar en cuanta si tiene citas hoy en la app
+actualizar, si no 
+
+
+el directorio web seria aparte del sistema de smart doctor
+
