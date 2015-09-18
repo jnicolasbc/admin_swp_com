@@ -23,9 +23,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'smart_doctor',
+			'database'  => 'admin_agenda',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => '1991nicougb',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

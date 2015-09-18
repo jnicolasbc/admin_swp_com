@@ -47,12 +47,12 @@ return array(
 	'connections' => array(
 		
 
-		'mysql' => array(
+		'mysql' => array( 
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'admin_agenda',
-			'username'  => 'admin_jhohnny',
-			'password'  => 'CLAROCLARO74',
+			'username'  => 'root',
+			'password'  => '1991nicougb',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

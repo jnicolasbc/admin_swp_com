@@ -1,7 +1,7 @@
 <?php
 
 class SentryUserSeeder extends Seeder {
-
+ 
 	/**
 	 * Run the database seeds.
 	 *
